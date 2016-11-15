@@ -3,7 +3,7 @@ require_once 'vendor/autoload.php';
 require_once 'stopwatch.php';
  
 // connect to database
-$mysqli = new mysqli('localhost', 'root', '', 'telegram');
+$mysqli = new mysqli('db4free.net', 'matko', 'siaw9wur', 'figapartybot');
 if (!empty($mysqli->connect_errno)) {
     throw new \Exception($mysqli->connect_error, $mysqli->connect_errno);
 }
